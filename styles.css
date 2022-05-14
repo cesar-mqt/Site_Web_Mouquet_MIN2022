@@ -1,0 +1,453 @@
+/* Accueil */
+
+#menu {
+  display: none;
+  background-color: black;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.fondmenu {
+  background-color: rgb(100, 213, 213);
+  padding-left: 25%;
+}
+
+.menu {
+  list-style: none;
+  margin: 0 auto;
+}
+
+nav ul li {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  color: black;
+}
+
+ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.menu li {
+  padding: 18px;
+}
+
+.fondEcran {
+  background-image: url(./images/fond.jpg);
+  height: 80%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textEcran {
+  font-size: large;
+  color: rgb(222, 203, 203);
+  padding-top: 24%;
+  padding-left: 27.5%;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.photoCss {
+  padding-top: 45px;
+  height: 650px;
+  width: 360px;
+  padding-left: 10%;
+  float: left;
+}
+
+.Data {
+  margin-left: 5%;
+  font-size: x-large;
+}
+
+.txtAccueil {
+  margin-left: 35.8%;
+  font-size: x-large;
+}
+
+.infos {
+  font-size: x-large;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 0 auto;
+}
+
+
+
+
+
+
+/* PARCOURS */
+
+/* EPF */
+.parcoursEpf {
+  cursor: pointer;
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+  width: 700px;
+  text-align: left;
+  float: left;
+}
+
+.parcoursEpf .fadedbox {
+  background-color: #666666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  width: 700px;
+  height: auto;
+  padding: 130px 20px;
+}
+.parcoursEpf:hover .fadedbox {
+  opacity: 0.9;
+}
+
+.parcoursEpf .title {
+  font-size: 3em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+
+.parcoursEpf .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  font-size: 36px;
+}
+
+.parcoursEpf:hover .title,
+.parcoursEpf:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+.txtEPF {
+  padding-left: 50%;
+  font-size: 3em;
+  padding-top: 0;
+}
+
+.txtEPF li {
+  font-size: 2.5em;
+  color: red;
+}
+
+.epfim {
+  padding-left: 90%;
+  font-size: 36px;
+}
+
+/* Warwick */
+
+.parcoursWarwick {
+  cursor: pointer;
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+  width: 700px;
+  text-align: left;
+  float: right;
+}
+
+.parcoursWarwick .fadedboxWwk {
+  background-color: #666666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  width: 700px;
+  height: auto;
+  padding: 130px 20px;
+}
+.parcoursWarwick:hover .fadedboxWwk {
+  opacity: 0.9;
+}
+.parcoursWarwick .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  font-size: 36px;
+}
+.parcoursWarwick .title {
+  font-size: 3em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.parcoursWarwick:hover .title,
+.parcoursWarwick:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+/* Saint Dominique */
+
+.parcoursStDo {
+  cursor: pointer;
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+  width: 700px;
+  text-align: left;
+}
+
+.parcoursStDo .fadedboxSTDO {
+  background-color: #666666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  width: 700px;
+  height: auto;
+  padding: 130px 20px;
+}
+.parcoursStDo:hover .fadedboxSTDO {
+  opacity: 0.9;
+}
+
+.parcoursStDo .title {
+  font-size: 3em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+
+.parcoursStDo .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  font-size: 36px;
+}
+
+.parcoursStDo:hover .title,
+.parcoursStDo:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+.TitreBoxes {
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+
+
+/* Experiences pro */
+.BoxParcours {
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+}
+
+.imgGauche {
+  float: left;
+}
+
+.imgDroite {
+  float: right;
+}
+
+.titreExp {
+  padding-left: 5%;
+}
+
+.txtExp {
+  font-size: 27px;
+}
+
+.descDroite {
+  padding-left: 37%;
+}
+
+.cadre {
+  border: 4mm ridge rgba(42, 42, 38, 0.6);
+}
+
+
+
+
+
+
+
+/* Skills */
+
+#conteneurSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#subConteneurSkills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.TitretxtSkills {
+  font-size: 32px;
+}
+
+.competencesTxt {
+  padding-left: 5%;
+  font-size: 24px;
+}
+
+.cadreSkills {
+  border: 4mm ridge rgba(42, 42, 38, 0.6);
+  width: 800px;
+  height: auto;
+}
+
+
+
+
+
+
+/* Contact */
+.imgStandard {
+  width: 150px;
+  height: 150px;
+}
+
+.cadreRond {
+  border-radius: 50px;
+  border: 4mm ridge rgba(13, 12, 12, 0.6);
+}
+
+#conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.element:nth-child(1) {
+  width: 40%;
+  height: 25%;
+  background-color: rgb(106, 109, 117);
+  align-self: flex-start;
+  margin-top: 3%;
+}
+
+.element:nth-child(2) {
+  width: 40%;
+  height: 25%;
+  align-self: flex-end;
+  margin-bottom: 3%;
+  background-color: rgb(251, 251, 251);
+  margin-top: 3%;
+}
+
+.elementLinkdin {
+  margin-top: 3%;
+  width: 50%;
+  height: 20%;
+  background-color: rgb(93, 136, 227);
+}
+
+.elementImpression {
+  width: 50%;
+  height: 20%;
+  background-color: rgb(150, 231, 143);
+  margin-bottom: 3%;
+}
+
+.imgDroiteMail {
+  float: right;
+  margin-right: 5%;
+}
+
+.imgGaucheGit {
+  float: left;
+}
+
+.txtMail {
+  padding-left: 13%;
+  font-size: 30px;
+}
+
+.liMail {
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.txtGit {
+  padding-left: 30%;
+  font-size: 24px;
+  margin-top: 9%;
+}
+
+.txtBoxTopBot {
+  font-size: 24px;
+}
+
+#conteneur2 {
+  display: flex;
+  justify-content: center;
+}
