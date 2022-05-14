@@ -6,7 +6,7 @@ Ce site web a pour but de faire office de site CV et est composé de 5 pages.
 
 -Accueil : Présentation et statut
 
--Parcours : Qui retrace les études
+-Parcours : Page qui retrace les études
 
 -Expériences : Regroupant les expériences professionnelles
 
@@ -17,7 +17,7 @@ Ce site web a pour but de faire office de site CV et est composé de 5 pages.
 
 ******************************************************************************************************************
 
-Il est possible de lancer le site depuis n'importe quelle page HTML mais il est conseillé de la lancer depuis le page accueil.html
+Il est possible de lancer le site depuis n'importe quelle page HTML mais il est conseillé de la lancer depuis la page accueil.html et sur le navigateur CHROME.
 
 
 
